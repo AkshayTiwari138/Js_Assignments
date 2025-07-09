@@ -9,3 +9,4 @@ if(num1 >num2){
   
      console.log("It is largest of number", num2)
 }
+

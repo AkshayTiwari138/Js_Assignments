@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SBI ATM</title>
+  <link rel="stylesheet" href="atm.css" />
+</head>
+<body>
+  <div class="atm">
+    <div class="screen" id="screen">
+      <h2>Welcome to</h2>
+      <h1>SBI ATM</h1>
+      <p>Please select a transaction</p>
+    </div>
+
+    <div class="buttons">
+      <button onclick="checkBalance ()">💰 Balance Inquiry</button>
+      <button onclick="withdrawFunds()">🏧 Withdraw</button>
+      <button onclick="depositFunds()">💵 Deposit</button>
+      <button onclick="exit()">🚪 Exit</button>
+    </div>
+
+    <div class="card-slot"></div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
